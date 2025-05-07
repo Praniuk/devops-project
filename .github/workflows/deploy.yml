@@ -23,7 +23,7 @@ jobs:
     - name: Deploy to server
       run: |
         ssh prani@34.118.123.198 "
-          cd /home/prani/app &&
+          cd /home/prani &&
           git pull &&
           sudo systemctl restart app
         "
