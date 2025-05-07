@@ -24,6 +24,6 @@ jobs:
       run: |
         ssh prani@34.118.123.198 "
           cd /home/prani &&
-          git pull &&
+          git pull origin main &&
           sudo systemctl restart app
         "
